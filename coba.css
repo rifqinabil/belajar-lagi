@@ -1,0 +1,71 @@
+*,html{
+    margin: 0;
+    padding: 0;
+}
+.balik{}
+.pertama{
+    background-color: navy;
+    width: 100%;
+    height: 10vh;
+}
+.tama{
+display: flex;
+height: 65px;
+justify-content: center;
+align-items: center;
+}
+.ma{
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: rgb(0, 0, 0);
+font-size: 30px;
+}
+.ma:hover {
+    background-color: tomato;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+.ma-bar{
+    color: beige;
+    text-decoration: none;
+    font-weight: 600;
+}
+.dualipa{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.gambars{
+    width: 720px;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 80px;
+    box-shadow: -1px 0px 5px 11px rgba(235,214,214,0.75);
+-webkit-box-shadow: -1px 0px 5px 11px rgba(235,214,214,0.75);
+-moz-box-shadow: -1px 0px 5px 11px rgba(235,214,214,0.75);
+
+}
+.lipa{
+    width: 50%;
+    height: 50%;
+}
+.tigala{
+height: 10vh;
+background-color: navy;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.gala{
+font-size: 40px;
+color: aliceblue;
+}
